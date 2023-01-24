@@ -141,17 +141,18 @@ notice "green" "installing flatpak done..."
 
 notice "blue" "installing flathub applications..."
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub -y \
-    com.google.Chrome \
-    com.mattjakeman.ExtensionManager \
-    io.github.davidoc26.wallpaper_selector \
-    org.gnome.Calculator \
-    org.gnome.Calendar \
-    org.gnome.eog \
-    org.gnome.FileRoller \
-    org.gnome.Rhythmbox3 \
-    org.gnome.TextEditor \
-    org.gnome.Totem
+flatpak install flathub -y com.google.Chrome
+# flatpak install flathub -y \
+#     com.google.Chrome \
+#     com.mattjakeman.ExtensionManager \
+#     io.github.davidoc26.wallpaper_selector \
+#     org.gnome.Calculator \
+#     org.gnome.Calendar \
+#     org.gnome.eog \
+#     org.gnome.FileRoller \
+#     org.gnome.Rhythmbox3 \
+#     org.gnome.TextEditor \
+#     org.gnome.Totem
 notice "green" "installing flathub applications done..."
 
 # -------------
