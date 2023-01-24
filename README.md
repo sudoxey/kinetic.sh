@@ -16,4 +16,4 @@ Based on [Jammy Debloater](https://github.com/sudoxey/jammy.sh).
 
 ## License
 
-[MIT License](https://github.com/sudoxey/jammy.sh/blob/main/LICENSE).
+[MIT License](https://github.com/sudoxey/kinectic.sh/blob/main/LICENSE).
