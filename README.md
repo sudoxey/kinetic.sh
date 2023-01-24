@@ -1,6 +1,6 @@
 # kinectic.sh (Kinetic Debloater)
 
-A bash script to automate some fun stuff that were missing from the default Ubuntu 22.10 LTS minimal installation.
+A bash script to automate some fun stuff that were missing from the default Ubuntu 22.10 minimal installation.
 
 ## How to use this script?
 
