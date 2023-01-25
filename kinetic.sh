@@ -141,7 +141,7 @@ notice "green" "installing flatpak done..."
 
 notice "blue" "installing flathub applications..."
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub -y com.google.Chrome
+# flatpak install flathub -y com.google.Chrome
 # flatpak install flathub -y \
 #     com.google.Chrome \
 #     com.mattjakeman.ExtensionManager \
