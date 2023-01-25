@@ -96,7 +96,6 @@ cp \
     '/usr/share/applications/im-config.desktop' \
     '/usr/share/applications/gnome-language-selector.desktop' \
     '/usr/share/applications/nm-connection-editor.desktop' \
-    '/usr/share/applications/org.gnome.Settings.desktop' \
     '/var/lib/snapd/desktop/applications/snap-store_ubuntu-software.desktop' \
     '/usr/share/applications/software-properties-drivers.desktop' \
     "$HOME/.local/share/applications"
@@ -104,7 +103,6 @@ tee -a \
     "$HOME/.local/share/applications/im-config.desktop" \
     "$HOME/.local/share/applications/gnome-language-selector.desktop" \
     "$HOME/.local/share/applications/nm-connection-editor.desktop" \
-    "$HOME/.local/share/applications/org.gnome.Settings.desktop" \
     "$HOME/.local/share/applications/snap-store_ubuntu-software.desktop" \
     "$HOME/.local/share/applications/software-properties-drivers.desktop" \
     <<< 'Hidden=true' > /dev/null
